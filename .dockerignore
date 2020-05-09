@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Mac
+.DS_Store
+
+# Docker
+docker-compose*.yml
+Dockerfile
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+
+# Editors
+.vscode
+*.code-workspace
+
+# Project
+Makefile

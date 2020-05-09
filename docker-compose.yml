@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  trainer-notebook:
+    build: .
+    image: pfg/trainer-notebook:latest
+    volumes:
+      - .:/opt:rw
+    ports:
+      - 8888:8888
